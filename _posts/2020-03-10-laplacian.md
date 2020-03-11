@@ -37,6 +37,7 @@ minimize \int \left | \nabla I(x,y) \right | ^2 dxdy
 $$
 
 증명해보자. 우리는 주어진 이미지의 pixel 값을 어떻게 iteration 을 반복하면서 어떻게 gradient descent 해가야 위 목적함수의 loss 를 줄이는 것인지가 궁금한 것이니깐,  이미지 pixel 값 하나하나를 변수로 보고 그 하나하나의 변수에 대해서 위 목적함수에 대한 partial derivative 를 구하면 gradient vector 를 얻게 된다. 즉 목적함수를 $I$ 에 대해서 (pixel 값 하나하나에 대해서) 미분해보자.
+
 $$
 \frac{\partial}{\partial I} \sum \left | \nabla I(x,y) \right | ^2 = 
 \sum \frac{\partial}{\partial I} \left | \nabla I(x,y) \right | ^2 = 
@@ -44,5 +45,6 @@ $$
 \sum 2 \cdot \frac{\partial I}{\partial x} \cdot \frac{\partial}{\partial I} (\frac{\partial I}{\partial x})  + 2 \cdot \frac{\partial I}{\partial y} \cdot \frac{\partial}{\partial I} (\frac{\partial I}{\partial y}) =
 2 \sum \frac{\partial^2 I}{\partial x^2} + \frac{\partial^2 I}{\partial y^2}
 $$
+
 이런 형태가 되고 각 pixel point 에 대한 gradient ($\nabla I$가 아니라 목적함수에 대한 gradient 를 말하는 것임) 값으로 해당 위치에서의 Laplacian 을 얻으면 된다는 것을 알수있다. 즉 Heat Equation 이 optimizing 하려는 목적함수가 위와 같은 형태라는 것이 증명된다.
 
