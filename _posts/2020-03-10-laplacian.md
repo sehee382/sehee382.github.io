@@ -46,5 +46,5 @@ $$
 2 \sum \frac{\partial^2 I}{\partial x^2} + \frac{\partial^2 I}{\partial y^2}
 $$
 
-이런 형태가 되고 각 pixel point 에 대한 gradient ($\nabla I$가 아니라 목적함수에 대한 gradient 를 말하는 것임) 값으로 해당 위치에서의 Laplacian 을 얻으면 된다는 것을 알수있다. 즉 Heat Equation 이 optimizing 하려는 목적함수가 위와 같은 형태라는 것이 증명된다.
+이런 형태가 되고 각 pixel point 에 대한 gradient ($\nabla I$가 아니라 목적함수에 대한 gradient 를 말하는 것임) 값으로 해당 위치에서의 Laplacian 을 얻으면 된다는 것을 알 수 있다.
 
