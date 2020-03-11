@@ -36,7 +36,7 @@ $$
 minimize \int \left | \nabla I(x,y) \right | ^2 dxdy
 $$
 
-증명해보자. 우리는 주어진 이미지의 pixel 값을 어떻게 iteration 을 반복하면서 어떻게 gradient descent 해가야 위 목적함수의 loss 를 줄이는 것인지가 궁금한 것이니깐,  이미지 pixel 값 하나하나를 변수로 보고 그 하나하나의 변수에 대해서 위 목적함수에 대한 partial derivative 를 구하면 gradient vector 를 얻게 된다. 즉 목적함수를 $I$ 에 대해서 (pixel 값 하나하나에 대해서) 미분해보자.
+증명해보자. 우리는 주어진 이미지의 pixel 값을 iteration 을 반복하면서 어떻게 gradient descent 해가야 위 목적함수의 loss 를 줄이는 것인지가 궁금한 것이니깐,  이미지 pixel 값 하나하나를 변수로 보고 그 하나하나의 변수에 대해서 위 목적함수의 partial derivative 를 구하면 gradient vector 를 얻게 된다. 즉 목적함수를 $I$ 에 대해서 (pixel 값에 대해서) 미분해보자.
 
 $$
 \frac{\partial}{\partial I} \sum \left | \nabla I(x,y) \right | ^2 = 
