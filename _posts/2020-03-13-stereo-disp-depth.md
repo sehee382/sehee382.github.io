@@ -8,7 +8,5 @@ categories: math
 
 ## Rectified Image Pair of Stereo Camera
 
-```
-<img src="http://sehee382.github.io/_posts/stereo-disp-depth.jpg" width="80%" height="80%"></img>
-```
+![stereo_disp_depth](https://github.com/sehee382/sehee382.github.io/blob/master/assets/images/stereo-disp-depth.jpg)
 
