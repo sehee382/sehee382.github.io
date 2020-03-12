@@ -8,5 +8,5 @@ categories: math
 
 ## Rectified Image Pair of Stereo Camera
 
-![stereo_disp_depth](https://github.com/sehee382/sehee382.github.io/blob/master/assets/images/stereo-disp-depth.jpg)
+![stereo_disp_depth](images/stereo-disp-depth.jpg)
 
