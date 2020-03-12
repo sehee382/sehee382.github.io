@@ -29,8 +29,8 @@ $$
 $$
 
 시간의 흐름에 따라 (즉 iteration 이 반복됨에 따라), image 를 3차원 공간의 surface 로 표현했을 때 (x=width, y=height, z=intensity) z 방향으로 볼록한 부분을 조금씩 눌러주고 오목한 부분을 조금씩 올려주는 process 를 표현한다.(= Blurring)
-
 위 식은 최종적으로 아래의 optimizing 을 수행하는 것이라고 생각할 수 있다. 
+
 $$
 minimize \int \left | \nabla I(x,y) \right | ^2 dxdy
 $$
