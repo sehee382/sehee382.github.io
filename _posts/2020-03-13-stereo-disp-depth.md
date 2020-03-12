@@ -8,5 +8,5 @@ categories: math
 
 ## Rectified Image Pair of Stereo Camera
 
-![stereo_disp_depth](./images/stereo-disp-depth.jpg)
+![stereo_disp_depth](../images/stereo-disp-depth.jpg)
 
