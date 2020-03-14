@@ -8,7 +8,7 @@ categories: math
 
 ## Rectified Image Pair of Stereo Camera
 
-![stereo_disp_depth](../images/stereo-disp-depth.jpg)
+![](/images/stereo-disp-depth.jpg)
 
 구글 검색해서 나온 frame 에 보조선을 살짝 덧입혔다. 스테레오 카메라에서 양쪽 수평의 카메라를 calibration 을 통해 rectified image pair 를 얻어내는 상황이라고 가정하자. opencv 의 stereoCalibrate, stereoRectifify 같은 함수들을 찾아보면 된다.
 
